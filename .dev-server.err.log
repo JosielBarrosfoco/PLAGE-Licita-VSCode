@@ -1,0 +1,11 @@
+[2m02:59:22[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22m[cently:rd:site] failed to patch window.location setter TypeError: Cannot redefine property: location
+    at Object.defineProperty (<anonymous>)
+    at chrome-extension://phhhmbgggfifgikoihlakngnngdehhfe/redirectionChainSiteScript.js:1:65893
+    at chrome-extension://phhhmbgggfifgikoihlakngnngdehhfe/redirectionChainSiteScript.js:1:66666
+    at chrome-extension://phhhmbgggfifgikoihlakngnngdehhfe/redirectionChainSiteScript.js:1:66670
+    at e (chrome-extension://phhhmbgggfifgikoihlakngnngdehhfe/redirectionChainSiteScript.js:1:66677)
+    at 5540 (chrome-extension://phhhmbgggfifgikoihlakngnngdehhfe/redirectionChainSiteScript.js:1:66690)
+    at r (chrome-extension://phhhmbgggfifgikoihlakngnngdehhfe/redirectionChainSiteScript.js:1:66793)
+    at chrome-extension://phhhmbgggfifgikoihlakngnngdehhfe/redirectionChainSiteScript.js:1:67079
+    at chrome-extension://phhhmbgggfifgikoihlakngnngdehhfe/redirectionChainSiteScript.js:1:67088
+    at chrome-extension://phhhmbgggfifgikoihlakngnngdehhfe/redirectionChainSiteScript.js:1:67092
