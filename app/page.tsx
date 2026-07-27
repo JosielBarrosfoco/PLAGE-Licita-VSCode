@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const services = [
   {
     number: "01",
@@ -171,10 +173,14 @@ export default function Home() {
 
       <section className="section advantage">
         <div className="advantage-visual">
-          <div className="radar">
-            <span>EDITAL</span><span>PROPOSTA</span><span>DISPUTA</span><span>CONTRATO</span>
-            <strong>PL</strong>
-          </div>
+          <Image
+            className="advantage-map"
+            src="/assets/mapa-brasil-processo-favicon.png"
+            width={1254}
+            height={1254}
+            sizes="(max-width: 900px) 100vw, 45vw"
+            alt="Mapa do Brasil representando as etapas edital, proposta, disputa e contrato"
+          />
         </div>
         <div className="advantage-copy">
           <p className="eyebrow dark"><span /> Por que a PLAGE Licita</p>
