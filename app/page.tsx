@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+const diagnosticUrl = "https://diagnostico.plagelicita.com.br";
+
 const services = [
   {
     number: "01",
@@ -72,9 +74,14 @@ export default function Home() {
           <a href="#metodo">Como funciona</a>
           <a href="#sobre">Sobre</a>
         </nav>
-        <a className="button button-small" href="https://wa.me/5595981249755?text=Olá%20Josiel,%20quero%20entender%20como%20a%20PLAGE%20Licita%20pode%20ajudar%20minha%20empresa." target="_blank" rel="noreferrer">
-          Falar com especialista
-        </a>
+        <div className="header-actions">
+          <a className="header-contact" href="https://wa.me/5595981249755?text=Olá%20Josiel,%20quero%20entender%20como%20a%20PLAGE%20Licita%20pode%20ajudar%20minha%20empresa." target="_blank" rel="noreferrer">
+            Falar com especialista
+          </a>
+          <a className="button button-small" href={diagnosticUrl}>
+            Fazer diagnóstico gratuito
+          </a>
+        </div>
       </header>
 
       <section className="hero" id="inicio">
@@ -87,8 +94,11 @@ export default function Home() {
             oportunidades reais — com mais clareza, controle e segurança em cada etapa.
           </p>
           <div className="hero-actions">
-            <a className="button" href="https://wa.me/5595981249755?text=Olá%20Josiel,%20gostaria%20de%20falar%20sobre%20gestão%20de%20licitações." target="_blank" rel="noreferrer">
-              Solicitar diagnóstico <ArrowIcon />
+            <a className="button" href={diagnosticUrl}>
+              Fazer diagnóstico gratuito <ArrowIcon />
+            </a>
+            <a className="text-link" href="https://wa.me/5595981249755?text=Olá%20Josiel,%20gostaria%20de%20falar%20sobre%20gestão%20de%20licitações." target="_blank" rel="noreferrer">
+              Falar no WhatsApp <ArrowIcon />
             </a>
             <a className="text-link" href="#servicos">Conhecer os serviços <ArrowIcon /></a>
           </div>
@@ -244,9 +254,14 @@ export default function Home() {
         </div>
         <div>
           <p>Converse com um especialista e descubra o melhor caminho para sua empresa começar ou evoluir nas licitações públicas.</p>
-          <a className="button button-light" href="https://wa.me/5595981249755?text=Olá%20Josiel,%20quero%20solicitar%20um%20diagnóstico%20para%20minha%20empresa." target="_blank" rel="noreferrer">
-            Falar no WhatsApp <ArrowIcon />
-          </a>
+          <div className="cta-actions">
+            <a className="button button-light" href={diagnosticUrl}>
+              Fazer diagnóstico gratuito <ArrowIcon />
+            </a>
+            <a className="button button-outline-light" href="https://wa.me/5595981249755?text=Olá%20Josiel,%20quero%20solicitar%20um%20diagnóstico%20para%20minha%20empresa." target="_blank" rel="noreferrer">
+              Falar no WhatsApp <ArrowIcon />
+            </a>
+          </div>
         </div>
       </section>
 
