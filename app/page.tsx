@@ -75,7 +75,7 @@ export default function Home() {
           <a href="#sobre">Sobre</a>
         </nav>
         <div className="header-actions">
-          <a className="header-contact" href="https://wa.me/5595981249755?text=Olá%20Josiel,%20quero%20entender%20como%20a%20PLAGE%20Licita%20pode%20ajudar%20minha%20empresa." target="_blank" rel="noreferrer">
+          <a className="header-contact" href="https://wa.me/556282747856?text=Olá%20Josiel,%20quero%20entender%20como%20a%20PLAGE%20Licita%20pode%20ajudar%20minha%20empresa." target="_blank" rel="noreferrer">
             Falar com especialista
           </a>
           <a className="button button-small" href={diagnosticUrl}>
@@ -97,7 +97,7 @@ export default function Home() {
             <a className="button" href={diagnosticUrl}>
               Fazer diagnóstico gratuito <ArrowIcon />
             </a>
-            <a className="text-link" href="https://wa.me/5595981249755?text=Olá%20Josiel,%20gostaria%20de%20falar%20sobre%20gestão%20de%20licitações." target="_blank" rel="noreferrer">
+            <a className="text-link" href="https://wa.me/556282747856?text=Olá%20Josiel,%20gostaria%20de%20falar%20sobre%20gestão%20de%20licitações." target="_blank" rel="noreferrer">
               Falar no WhatsApp <ArrowIcon />
             </a>
             <a className="text-link" href="#servicos">Conhecer os serviços <ArrowIcon /></a>
@@ -258,7 +258,7 @@ export default function Home() {
             <a className="button button-light" href={diagnosticUrl}>
               Fazer diagnóstico gratuito <ArrowIcon />
             </a>
-            <a className="button button-outline-light" href="https://wa.me/5595981249755?text=Olá%20Josiel,%20quero%20solicitar%20um%20diagnóstico%20para%20minha%20empresa." target="_blank" rel="noreferrer">
+            <a className="button button-outline-light" href="https://wa.me/556282747856?text=Olá%20Josiel,%20quero%20solicitar%20um%20diagnóstico%20para%20minha%20empresa." target="_blank" rel="noreferrer">
               Falar no WhatsApp <ArrowIcon />
             </a>
           </div>
@@ -273,7 +273,7 @@ export default function Home() {
         <p>Gestão • Inteligência • Processos • Tecnologia</p>
         <div className="footer-contact">
           <a href="mailto:atendimento@plagetecnologia.com.br">atendimento@plagetecnologia.com.br</a>
-          <a href="tel:+5595981249755">(95) 98124-9755</a>
+          <a href="tel:+556282747856">(62) 8274-7856</a>
           <a
             className="linkedin-company"
             href="https://www.linkedin.com/company/plage-licita/about/?viewAsMember=true"
