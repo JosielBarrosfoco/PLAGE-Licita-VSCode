@@ -32,6 +32,7 @@
   ],
   "exclude": [
     "node_modules",
+    "elevat-my-biz",
     "worker",
     "examples",
     "vite.config.ts",

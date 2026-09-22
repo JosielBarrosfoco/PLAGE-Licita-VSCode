@@ -75,7 +75,7 @@ export default function Home() {
           <a href="#sobre">Sobre</a>
         </nav>
         <div className="header-actions">
-          <a className="header-contact" href="https://wa.me/556282747856?text=Olá%20Josiel,%20quero%20entender%20como%20a%20PLAGE%20Licita%20pode%20ajudar%20minha%20empresa." target="_blank" rel="noreferrer">
+          <a className="header-contact" href="https://wa.me/5595981249755?text=Olá,%20quero%20entender%20como%20a%20PLAGE%20Licita%20pode%20ajudar%20minha%20empresa." target="_blank" rel="noreferrer">
             Falar com especialista
           </a>
           <a className="button button-small" href={diagnosticUrl}>
@@ -97,7 +97,7 @@ export default function Home() {
             <a className="button" href={diagnosticUrl}>
               Fazer diagnóstico gratuito <ArrowIcon />
             </a>
-            <a className="text-link" href="https://wa.me/556282747856?text=Olá%20Josiel,%20gostaria%20de%20falar%20sobre%20gestão%20de%20licitações." target="_blank" rel="noreferrer">
+            <a className="text-link" href="https://wa.me/5595981249755?text=Olá,%20gostaria%20de%20falar%20sobre%20gestão%20de%20licitações." target="_blank" rel="noreferrer">
               Falar no WhatsApp <ArrowIcon />
             </a>
             <a className="text-link" href="#servicos">Conhecer os serviços <ArrowIcon /></a>
@@ -206,31 +206,23 @@ export default function Home() {
 
       <section className="about" id="sobre">
         <div className="about-image">
-          <img src="/assets/josiel-barros-profissional.png" alt="Retrato profissional de Josiel Barros" />
+          <Image
+            src="/assets/mapa-brasil-processo-favicon.png"
+            width={1254}
+            height={1254}
+            sizes="(max-width: 900px) 100vw, 45vw"
+            alt="Licitações públicas no Brasil: edital, proposta, disputa e contrato"
+          />
         </div>
         <div className="about-copy">
-          <p className="eyebrow"><span /> Quem está por trás</p>
-          <h2>Estratégia com visão<br />de quem também empreende.</h2>
-          <p>Sou <strong>Josiel Barros</strong>, gestor de licitações, desenvolvedor e empreendedor. Uno gestão empresarial, tecnologia e análise de dados para ajudar empresas a participarem de compras públicas com método e clareza.</p>
-          <blockquote>“Minha missão é simplificar processos complexos e transformar informação em decisões mais seguras.”</blockquote>
+          <p className="eyebrow"><span /> Sobre a PLAGE Licita</p>
+          <h2>Estratégia e organização<br />para as compras públicas.</h2>
+          <p>A <strong>PLAGE Licita</strong> reúne gestão, tecnologia e análise de dados para ajudar empresas a compreenderem as oportunidades do mercado público e participarem de licitações com método e clareza.</p>
+          <blockquote>“Simplificar processos complexos e transformar informação em decisões mais seguras.”</blockquote>
           <div className="credentials">
-            <span>Gestor de Licitações — Nível Especialista</span>
+            <span>Gestão de Licitações</span>
             <span>Gestão Empresarial e Tecnologia</span>
           </div>
-          <a
-            className="linkedin-profile"
-            href="https://www.linkedin.com/in/josiel-barros/"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Acessar o perfil pessoal de Josiel Barros no LinkedIn"
-          >
-            <LinkedInIcon />
-            <span>
-              <small>Conecte-se comigo</small>
-              Perfil de Josiel Barros no LinkedIn
-            </span>
-            <ArrowIcon />
-          </a>
         </div>
       </section>
 
@@ -258,7 +250,7 @@ export default function Home() {
             <a className="button button-light" href={diagnosticUrl}>
               Fazer diagnóstico gratuito <ArrowIcon />
             </a>
-            <a className="button button-outline-light" href="https://wa.me/556282747856?text=Olá%20Josiel,%20quero%20solicitar%20um%20diagnóstico%20para%20minha%20empresa." target="_blank" rel="noreferrer">
+            <a className="button button-outline-light" href="https://wa.me/5595981249755?text=Olá,%20quero%20solicitar%20um%20diagnóstico%20para%20minha%20empresa." target="_blank" rel="noreferrer">
               Falar no WhatsApp <ArrowIcon />
             </a>
           </div>
@@ -273,7 +265,7 @@ export default function Home() {
         <p>Gestão • Inteligência • Processos • Tecnologia</p>
         <div className="footer-contact">
           <a href="mailto:atendimento@plagetecnologia.com.br">atendimento@plagetecnologia.com.br</a>
-          <a href="tel:+556282747856">(62) 8274-7856</a>
+          <a href="tel:+5595981249755">(95) 98124-9755</a>
           <a
             className="linkedin-company"
             href="https://www.linkedin.com/company/plage-licita/about/?viewAsMember=true"
